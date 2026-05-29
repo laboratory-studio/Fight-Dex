@@ -1,0 +1,37 @@
+import type { Character } from '../types';
+
+const BASE = 'https://www.mksecrets.net/images/mk9';
+
+export const mk9Characters: Character[] = [
+  { id: 'scorpion', name: 'Scorpion', imageUrl: `${BASE}/scorpion.png`, gameId: 'mk9' },
+  { id: 'liukang', name: 'Liu Kang', imageUrl: `${BASE}/liukang.png`, gameId: 'mk9' },
+  { id: 'kunglao', name: 'Kung Lao', imageUrl: `${BASE}/kunglao.png`, gameId: 'mk9' },
+  { id: 'subzero', name: 'Sub-Zero', imageUrl: `${BASE}/subzero.png`, gameId: 'mk9' },
+  { id: 'sindel', name: 'Sindel', imageUrl: `${BASE}/sindel.png`, gameId: 'mk9' },
+  { id: 'ermac', name: 'Ermac', imageUrl: `${BASE}/ermac.png`, gameId: 'mk9' },
+  { id: 'reptile', name: 'Reptile', imageUrl: `${BASE}/reptile.png`, gameId: 'mk9' },
+  { id: 'kitana', name: 'Kitana', imageUrl: `${BASE}/kitana.png`, gameId: 'mk9' },
+  { id: 'johnnycage', name: 'Johnny Cage', imageUrl: `${BASE}/johnnycage.png`, gameId: 'mk9' },
+  { id: 'jade', name: 'Jade', imageUrl: `${BASE}/jade.png`, gameId: 'mk9' },
+  { id: 'mileena', name: 'Mileena', imageUrl: `${BASE}/mileena.png`, gameId: 'mk9' },
+  { id: 'nightwolf', name: 'Nightwolf', imageUrl: `${BASE}/nightwolf.png`, gameId: 'mk9' },
+  { id: 'cyrax', name: 'Cyrax', imageUrl: `${BASE}/cyrax.png`, gameId: 'mk9' },
+  { id: 'noobsaibot', name: 'Noob Saibot', imageUrl: `${BASE}/noobsaibot.png`, gameId: 'mk9' },
+  { id: 'smoke', name: 'Smoke', imageUrl: `${BASE}/smoke.png`, gameId: 'mk9' },
+  { id: 'sektor', name: 'Sektor', imageUrl: `${BASE}/sektor.png`, gameId: 'mk9' },
+  { id: 'sonya', name: 'Sonya Blade', imageUrl: `${BASE}/sonya.png`, gameId: 'mk9' },
+  { id: 'jax', name: 'Jax', imageUrl: `${BASE}/jax.png`, gameId: 'mk9' },
+  { id: 'kano', name: 'Kano', imageUrl: `${BASE}/kano.png`, gameId: 'mk9' },
+  { id: 'stryker', name: 'Stryker', imageUrl: `${BASE}/stryker.png`, gameId: 'mk9' },
+  { id: 'shangtsung', name: 'Shang Tsung', imageUrl: `${BASE}/shangtsung.png`, gameId: 'mk9' },
+  { id: 'baraka', name: 'Baraka', imageUrl: `${BASE}/baraka.png`, gameId: 'mk9' },
+  { id: 'kabal', name: 'Kabal', imageUrl: `${BASE}/kabal.png`, gameId: 'mk9' },
+  { id: 'raiden', name: 'Raiden', imageUrl: `${BASE}/raiden.png`, gameId: 'mk9' },
+  { id: 'sheeva', name: 'Sheeva', imageUrl: `${BASE}/sheeva.png`, gameId: 'mk9' },
+  { id: 'cybersubzero', name: 'Cyber Sub-Zero', imageUrl: `${BASE}/cybersubzero.png`, gameId: 'mk9' },
+  { id: 'quanchi', name: 'Quan Chi', imageUrl: `${BASE}/quanchi.png`, gameId: 'mk9' },
+  { id: 'skarlet', name: 'Skarlet', imageUrl: `${BASE}/skarlet.png`, gameId: 'mk9' },
+  { id: 'kenshi', name: 'Kenshi', imageUrl: `${BASE}/kenshi.png`, gameId: 'mk9' },
+  { id: 'rain', name: 'Rain', imageUrl: `${BASE}/rain.png`, gameId: 'mk9' },
+  { id: 'freddykreuger', name: 'Freddy Krueger', imageUrl: `${BASE}/freddykreuger.png`, gameId: 'mk9' },
+];

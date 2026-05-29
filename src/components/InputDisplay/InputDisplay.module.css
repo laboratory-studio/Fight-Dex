@@ -1,0 +1,99 @@
+.inputRow {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.tokenWrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.separator {
+  display: inline-block;
+  width: 6px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 1px;
+  margin: 0 1px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+  padding: 0 4px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #1a1a1a;
+  background: var(--btn-color, #ccc);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.shape_circle {
+  border-radius: 50%;
+  min-width: 28px;
+  width: 28px;
+}
+
+.shape_square {
+  border-radius: 4px;
+}
+
+.shape_triangle {
+  border-radius: 4px 4px 50% 50%;
+}
+
+.shape_cross {
+  border-radius: 50%;
+  min-width: 28px;
+  width: 28px;
+  font-size: 14px;
+}
+
+.shape_default {
+  border-radius: 6px;
+}
+
+.direction {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 26px;
+  height: 26px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  font-size: 14px;
+  color: #e0e0e0;
+  font-weight: 700;
+}
+
+.generic {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 8px;
+  height: 26px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  font-size: 12px;
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.plus {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0 1px;
+}
